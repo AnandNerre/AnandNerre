@@ -1,130 +1,206 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Nerre%20Anand%20Kumar&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20Data%20Engineer%20%7C%20Azure%20%7C%20Databricks%20%7C%20AI%20Solutions&descAlignY=58&descSize=16&descColor=c7d2fe&animation=fadeIn" width="100%" alt="Nerre Anand Kumar banner"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=120&radius=0&gradient=6366f1,18181b&color=fff&text=Nerre%20Anand%20Kumar&fontSize=42&fontAlignY=55&desc=Senior%20Data%20Engineer&descSize=18&descAlignY=78&descAlign=50&animation=twinkling" width="100%"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-6366f1?style=for-the-badge&labelColor=09090b)](https://anandnerre.github.io/nerreanand.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=09090b)](https://linkedin.com/in/nerreanand)
-[![Email](https://img.shields.io/badge/Email-Hire_Me-6366f1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090b)](mailto:nerre.anand@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=AnandNerre&style=for-the-badge&color=6366f1&labelColor=09090b&label=PROFILE+VIEWS)](https://github.com/AnandNerre)
+**Lakehouse platforms · Real-time streaming · AI document intelligence · Analytics at scale**
+
+<br/>
+
+<a href="https://anandnerre.github.io/nerreanand.github.io/"><img src="https://img.shields.io/badge/Portfolio-View_Live-6366f1?style=for-the-badge&labelColor=18181b" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/anandnerre/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=18181b&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:nerre.anand@gmail.com"><img src="https://img.shields.io/badge/Email-nerre.anand@gmail.com-EA4335?style=for-the-badge&labelColor=18181b&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://github.com/AnandNerre.png" width="120" style="border-radius:50%;" alt="Nerre Anand Kumar"/>
 
 </div>
 
 ---
 
-## Hey, I'm Anand
+### Senior Data Engineer · Bangalore, India · 9+ years in production data systems
 
-I'm a **Senior Data Engineer** based in **Bangalore, India** with **9+ years** building production data systems across healthcare, adtech, and food-tech.
+I design and ship **cloud-native data platforms** that teams actually trust — high-throughput **PySpark** pipelines, **Databricks** lakehouses, **real-time streaming**, governed **Delta** layers, and **AI-powered document extraction** that turns messy PDFs into structured, review-ready data.
 
-I specialize in turning raw operational data and unstructured documents into reliable, governed, analytics-ready platforms using **Azure**, **Databricks**, **PySpark**, **SQL**, and **AI document processing**.
+Previously delivered across **healthcare**, **adtech**, **food-tech**, and **banking** — from terabyte-scale ingestion to sub-second SQL and executive-ready **Power BI** products.
 
-> Currently open to freelance and consulting engagements.
+> **Open to senior remote roles, freelance platform work, and consulting.**  
+> If it touches data volume, latency, quality, or unstructured documents — that's my lane.
+
+<br/>
+
+| **9+** | **25+** | **Real-time + Batch** | **Lakehouse-first** |
+|:------:|:-------:|:---------------------:|:-------------------:|
+| Years shipping data systems | Pipelines & platforms delivered | Event Hub · Structured Streaming · CDC | Databricks · Delta · Unity Catalog · Medallion |
 
 ---
 
-## What I Build
+## How I think about data platforms
 
-```text
-Raw Data
-  -> Ingestion   (ADF / Event Hub)
-  -> Lake        (ADLS / Bronze)
-  -> Transform   (Databricks / PySpark)
-  -> Serve       (Delta Lake / Snowflake)
-  -> Visualize   (Power BI / Dashboards)
-  -> Automate    (AI / Document Intelligence)
+```mermaid
+flowchart LR
+    A[Sources<br/>APIs · Events · Files] --> B[Ingestion<br/>ADF · Event Hub · Auto Loader]
+    B --> C[Lake<br/>ADLS · Bronze]
+    C --> D[Transform<br/>Databricks · PySpark]
+    D --> E[Serve<br/>Delta · SQL · Snowflake]
+    E --> F[Consume<br/>Power BI · Apps · Agents]
+    D --> G[AI Parsing<br/>Doc Intelligence · OCR]
+    G --> E
 ```
 
----
-
-## Featured Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| **[AI Document Processing Engine](https://github.com/AnandNerre)** | Extracts structured fields from unstructured documents, validates with confidence scoring, and routes exceptions to review queues | Azure AI, Databricks, FastAPI, Delta Lake |
-| **[Healthcare Real-Time Pipeline](https://github.com/AnandNerre)** | Processes HL7/FHIR-style event streams through bronze, silver, and gold layers with DLQ routing | Event Hub, PySpark, Streaming, Delta |
-| **[ServiceNow to Jira Migration](https://github.com/AnandNerre)** | Migrates historical tickets with wave-based delivery, data validation, and sensitive-data handling | Databricks, Python, ETL |
-| **[Databricks CI/CD Framework](https://github.com/AnandNerre)** | Uses Databricks Asset Bundles and GitHub Actions for automated environment deployments | DABs, GitHub Actions, Azure DevOps |
-| **[Snowflake Analytics Platform](https://github.com/AnandNerre)** | Builds a warehouse and Power BI semantic layer with clustering and performance tuning | Snowflake, SQL, Power BI, DAX |
+**Principles I operate by:** observable pipelines, explicit data contracts, idempotent loads, performance by design, and human-in-the-loop where confidence matters.
 
 ---
 
-## Tech Stack
+## Core expertise
 
-**Cloud & Orchestration**
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Platform Engineering**
+
+Azure ADF · ADLS Gen2 · Event Hub · Azure SQL · secure ingestion · orchestration · cost-aware storage design
+
+</td>
+<td width="33%" valign="top">
+
+**Lakehouse & Spark**
+
+Databricks jobs · Delta Lake · DLT · Unity Catalog · PySpark tuning · partitioning · streaming · reusable framework code
+
+</td>
+<td width="33%" valign="top">
+
+**Analytics & AI Data**
+
+Advanced SQL · Snowflake · Power BI semantic models · Document Intelligence · extraction workflows · review queues
+
+</td>
+</tr>
+</table>
+
+---
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%">
+
+### Mortgage AI Document Pipeline
+End-to-end intake for lending documents — classify, extract, validate, and route low-confidence fields to human review before landing trusted records in **Delta Lake**.
+
+`Azure AI` · `FastAPI` · `Databricks` · `Delta` · `OCR`
+
+</td>
+<td width="50%">
+
+### Healthcare Real-Time Pipeline
+HL7/FHIR-style event streams across **Event Hub** topics with **PySpark Structured Streaming**, medallion quality layers, DLQ routing, and SLA monitoring.
+
+`Event Hub` · `PySpark` · `Streaming` · `Delta`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ServiceNow → Jira Migration
+Wave-based migration of **47K+** historical tickets with validation gates, sensitive-data handling, and a Databricks transformation pipeline — zero data loss across a 10-month delivery.
+
+`Databricks` · `Python` · `ETL` · `HIPAA-aware`
+
+</td>
+<td width="50%">
+
+### Databricks CI/CD Framework
+**Databricks Asset Bundles** + **GitHub Actions** for automated test/prod promotion with Azure Service Principals and **Unity Catalog** governance.
+
+`DABs` · `GitHub Actions` · `Azure DevOps`
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### Snowflake Analytics Platform · Portfolio Analytics · SQL Performance
+Curated warehouse models, clustering strategy, incremental loads, and Power BI layers — including tuned procedures and window patterns on **100M+** row datasets.
+
+`Snowflake` · `SQL` · `Power BI` · `DAX`
+
+</td>
+</tr>
+</table>
+
+<a href="https://anandnerre.github.io/nerreanand.github.io/#projects"><img src="https://img.shields.io/badge/See_full_case_studies-6366f1?style=flat-square&labelColor=18181b" alt="Case studies"/></a>
+
+---
+
+## Tech stack
+
+<div align="center">
+
+[![Skills](https://skillicons.dev/icons?i=azure,python,postgres,docker,git,github,githubactions,fastapi,linux,vscode,bash&perline=11)](https://skillicons.dev/icons)
+
+<br/>
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![ADF](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Event Hub](https://img.shields.io/badge/Azure_Event_Hub-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![ADLS](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-**Data Platforms**
-
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat-square&logo=databricks&logoColor=white)
+![Event Hub](https://img.shields.io/badge/Event_Hub-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-
-**Languages & APIs**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**AI & BI**
-
-![Azure AI](https://img.shields.io/badge/Azure_Document_Intelligence-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-**DevOps**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=flat-square&logo=azuredevops&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=AnandNerre&show_icons=true&theme=transparent&hide_border=true&title_color=818cf8&icon_color=6366f1&text_color=a1a1aa&bg_color=09090b&count_private=true" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnandNerre&layout=compact&theme=transparent&hide_border=true&title_color=818cf8&text_color=a1a1aa&bg_color=09090b&langs_count=6" alt="Top languages" />
+![Document Intelligence](https://img.shields.io/badge/Document_Intelligence-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Unity Catalog](https://img.shields.io/badge/Unity_Catalog-FF3621?style=flat-square&logo=databricks&logoColor=white)
 
 </div>
 
 ---
 
-## Contribution Activity
+## GitHub
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnandNerre&bg_color=09090b&color=818cf8&line=6366f1&point=c7d2fe&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AnandNerre&show_icons=true&theme=transparent&hide_border=true&title_color=818cf8&icon_color=6366f1&text_color=c4c4cc&bg_color=00000000&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=AnandNerre&theme=transparent&hide_border=true&ring=6366f1&fire=818cf8&currStreakLabel=818cf8&sideLabels=c4c4cc&dates=c4c4cc&background=00000000" alt="GitHub streak"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnandNerre&bg_color=00000000&color=6366f1&line=818cf8&point=c7d2fe&area=true&hide_border=true&height=280" width="100%" alt="Contribution graph"/>
+
 </div>
 
 ---
 
-## Experience Highlights
+## Industry experience
 
-```text
-Healthcare  -> Terabyte-scale pipelines, Unity Catalog, Event Hub
-Adtech      -> Real-time data processing and Azure streaming pipelines
-Food-Tech   -> Snowflake analytics, Power BI, ELT at scale
-Banking     -> SQL reporting, migration support, and operational analytics
+```
+Healthcare   →  Terabyte-scale pipelines · Unity Catalog · streaming · governed lakehouse
+Adtech       →  Real-time event processing · Azure streaming · high-volume ingestion
+Food-tech    →  Snowflake warehouse · Power BI · ELT at scale · operational analytics
+Banking      →  SQL reporting · migration support · reconciliation · data quality
 ```
 
 ---
 
-## Let's Work Together
+## Let's build something reliable
 
-I'm open to **freelance data engineering projects**, **consulting**, and **remote roles**.
+I'm the engineer you call when the pipeline has to survive Monday morning — **correct data, clear lineage, and systems that scale without drama.**
 
-**Best for:** Azure data platforms, Databricks pipelines, AI document automation, SQL optimization.
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Visit_My_Portfolio-6366f1?style=for-the-badge&labelColor=09090b)](https://anandnerre.github.io/nerreanand.github.io/)
-[![Email](https://img.shields.io/badge/Send_Email-09090b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nerre.anand@gmail.com)
-
-</div>
+**Strong fit for:** Azure lakehouse modernization · Databricks/PySpark optimization · real-time pipelines · AI document automation · SQL & warehouse performance · Power BI-ready data products
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer" width="100%" alt="Footer wave"/>
+
+<br/>
+
+<a href="https://anandnerre.github.io/nerreanand.github.io/"><img src="https://img.shields.io/badge/Open_Portfolio-6366f1?style=for-the-badge&labelColor=18181b" alt="Portfolio"/></a>
+<a href="mailto:nerre.anand@gmail.com?subject=Data%20Engineering%20Inquiry"><img src="https://img.shields.io/badge/Start_a_Conversation-18181b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/anandnerre/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181b" alt="LinkedIn"/></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&section=footer&width=100%&color=6366f1" width="100%"/>
+
 </div>
