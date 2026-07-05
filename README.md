@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=120&radius=0&gradient=6366f1,18181b&color=fff&text=Nerre%20Anand%20Kumar&fontSize=42&fontAlignY=55&desc=Senior%20Data%20Engineer&descSize=18&descAlignY=78&descAlign=50&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=120&radius=0&gradient=6366f1,18181b&color=fff&text=Nerre%20Anand&fontSize=42&fontAlignY=55&desc=Senior%20Data%20Engineer&descSize=18&descAlignY=78&descAlign=50&animation=twinkling" width="100%"/>
 
 **Lakehouse platforms · Real-time streaming · AI document intelligence · Analytics at scale**
 
@@ -8,11 +8,10 @@
 
 <a href="https://anandnerre.github.io/nerreanand.github.io/"><img src="https://img.shields.io/badge/Portfolio-View_Live-6366f1?style=for-the-badge&labelColor=18181b" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/anandnerre/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=18181b&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:nerre.anand@gmail.com"><img src="https://img.shields.io/badge/Email-nerre.anand@gmail.com-EA4335?style=for-the-badge&labelColor=18181b&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
 
-<img src="https://github.com/AnandNerre.png" width="120" style="border-radius:50%;" alt="Nerre Anand Kumar"/>
+<img src="https://github.com/AnandNerre.png" width="120" style="border-radius:50%;" alt="Nerre Anand"/>
 
 </div>
 
@@ -20,7 +19,7 @@
 
 ### Senior Data Engineer · Bangalore, India · 9+ years in production data systems
 
-I design and ship **cloud-native data platforms** that teams actually trust — high-throughput **PySpark** pipelines, **Databricks** lakehouses, **real-time streaming**, governed **Delta** layers, and **AI-powered document extraction** that turns messy PDFs into structured, review-ready data.
+I design and ship **cloud-native data platforms** that teams actually trust — high-throughput **PySpark** pipelines, **Databricks** lakehouses, **real-time streaming**, governed **Delta** layers, and **AI-powered document parsing** that turns PDFs, scans, and images into structured, review-ready data.
 
 Previously delivered across **healthcare**, **adtech**, **food-tech**, and **banking** — from terabyte-scale ingestion to sub-second SQL and executive-ready **Power BI** products.
 
@@ -88,8 +87,8 @@ Advanced SQL · Snowflake · Power BI semantic models · Document Intelligence �
 <tr>
 <td width="50%">
 
-### Mortgage AI Document Pipeline
-End-to-end intake for lending documents — classify, extract, validate, and route low-confidence fields to human review before landing trusted records in **Delta Lake**.
+### Multi-Format Document Parsing Pipeline
+Ingest **PDFs, images, scans, and screenshots** (JPG, PNG, and more) — classify document type, extract structured fields with OCR/AI, validate confidence scores, and route exceptions to review before landing clean records in **Delta Lake**.
 
 `Azure AI` · `FastAPI` · `Databricks` · `Delta` · `OCR`
 
@@ -196,7 +195,6 @@ I'm the engineer you call when the pipeline has to survive Monday morning — **
 <br/>
 
 <a href="https://anandnerre.github.io/nerreanand.github.io/"><img src="https://img.shields.io/badge/Open_Portfolio-6366f1?style=for-the-badge&labelColor=18181b" alt="Portfolio"/></a>
-<a href="mailto:nerre.anand@gmail.com?subject=Data%20Engineering%20Inquiry"><img src="https://img.shields.io/badge/Start_a_Conversation-18181b?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.linkedin.com/in/anandnerre/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181b" alt="LinkedIn"/></a>
 
 <br/><br/>
